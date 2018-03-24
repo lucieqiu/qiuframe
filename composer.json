@@ -1,0 +1,23 @@
+{
+    "name": "19428/qiuframe",
+    "description": "suibian",
+    "type": "project",
+    "authors": [
+        {
+            "name": "qiu",
+            "email": "1942895637@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "files":[
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang",
+            "app\\":"app",
+            "system\\":"system"
+        }
+
+    }
+}
